@@ -1,9 +1,3 @@
-Perfect 👍
-Based on your **live app**, **GitHub profile**, and requirement, here is a **clear, professional, interview-ready README.md** for your project.
-
-You can **copy–paste this directly** into `README.md`.
-
----
 
 # 🛒 E-Commerce Website
 
@@ -110,16 +104,6 @@ E-commerce-Website/
 ## 👨‍💻 Author
 
 **Subeash D**
-Frontend Developer
 🔗 GitHub: [https://github.com/subeash-d](https://github.com/subeash-d)
 
 ---
-
-If you want, I can also:
-
-* Add a **Screenshots** section
-* Rewrite this for **resume / interview submission**
-* Make it **short & crisp** (assessment-style)
-* Convert it into a **corporate / professional README**
-
-Just tell me 👍
