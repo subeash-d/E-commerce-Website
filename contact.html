@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./home.css">
+    <style>
+
+    main
+    {
+        background-color: white;
+    }
+    .contact {
+        max-width: 500px;
+        margin: 60px auto;
+        background: #fff;
+        padding: 30px;
+        border-radius: 8px;
+    }
+
+    .contact h1 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .contact-form label {
+        display: block;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .contact-form button {
+        width: 100%;
+        background: #000;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    .contact-form button:hover {
+        background: #333;
+    }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="left">
+        <h2>ABOKICHI</h2>
+    </div>
+    <div class="center">
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./productpage.html">Shop</a></li>
+            <li><a href="./ourStory.html">Our Story</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<main>
+    <section class="contact">
+        <h1>Contact Us</h1>
+
+        <form class="contact-form" id="contactForm">
+            <label>
+                Name
+                <input type="text" placeholder="Enter your name" required>
+            </label>
+
+            <label>
+                Phone Number
+                <input type="tel" placeholder="Enter your number" required  minlength="10">
+            </label>
+
+            <label>
+                Email
+                <input type="email" placeholder="Enter your Gmail" required>
+            </label>
+            <label>
+                Issue
+                <textarea rows="5" placeholder="Describe your issue" required></textarea>
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+        alert("Thank you! Your issue has been submitted successfully.");
+        this.reset(); 
+    });
+</script>
+</body>
+</html>

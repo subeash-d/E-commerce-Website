@@ -1,0 +1,124 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Rahul",
+      "rating": 5,
+      "review": "Excellent quality products and very fast delivery."
+    },
+    {
+      "id": 2,
+      "name": "Priya",
+      "rating": 4,
+      "review": "Nice design and good packaging. Totally satisfied."
+    },
+    {
+      "id": 3,
+      "name": "Arjun",
+      "rating": 5,
+      "review": "Customer support was very helpful and responsive."
+    },
+    {
+      "id": 4,
+      "name": "Sneha",
+      "rating": 4,
+      "review": "Affordable prices and decent quality."
+    },
+    {
+      "id": 5,
+      "name": "Karthik",
+      "rating": 5,
+      "review": "Loved the user-friendly website experience."
+    },
+    {
+      "id": 6,
+      "name": "Ananya",
+      "rating": 4,
+      "review": "Delivery was on time and product matched description."
+    },
+    {
+      "id": 7,
+      "name": "Vikram",
+      "rating": 5,
+      "review": "Highly recommend this store for online shopping."
+    },
+    {
+      "id": 8,
+      "name": "Meena",
+      "rating": 4,
+      "review": "Good value for money."
+    },
+    {
+      "id": 9,
+      "name": "Suresh",
+      "rating": 5,
+      "review": "Very smooth checkout and payment process."
+    },
+    {
+      "id": 10,
+      "name": "Divya",
+      "rating": 4,
+      "review": "Product quality is good but delivery took one extra day."
+    },
+    {
+      "id": 11,
+      "name": "Manoj",
+      "rating": 5,
+      "review": "Fantastic service and premium quality products."
+    },
+    {
+      "id": 12,
+      "name": "Pooja",
+      "rating": 4,
+      "review": "Simple and clean UI. Easy to navigate."
+    },
+    {
+      "id": 13,
+      "name": "Ajith",
+      "rating": 5,
+      "review": "Will definitely purchase again from this store."
+    },
+    {
+      "id": 14,
+      "name": "Nisha",
+      "rating": 4,
+      "review": "Good customer experience overall."
+    },
+    {
+      "id": 15,
+      "name": "Ramesh",
+      "rating": 5,
+      "review": "Great offers and discounts available."
+    },
+    {
+      "id": 16,
+      "name": "Kavya",
+      "rating": 4,
+      "review": "Product quality exceeded my expectations."
+    },
+    {
+      "id": 17,
+      "name": "Surya",
+      "rating": 5,
+      "review": "Fast response from support team. Very satisfied."
+    },
+    {
+      "id": 18,
+      "name": "Aishwarya",
+      "rating": 4,
+      "review": "Nice shopping experience and smooth navigation."
+    },
+    {
+      "id": 19,
+      "name": "Hari",
+      "rating": 5,
+      "review": "Trustworthy website and genuine products."
+    },
+    {
+      "id": 20,
+      "name": "Keerthi",
+      "rating": 4,
+      "review": "Overall a good experience. Would recommend."
+    }
+  ]
+}

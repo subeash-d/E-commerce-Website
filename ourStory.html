@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story</title>
+    <link rel="stylesheet" href="./home.css">
+    <style>
+    .reviews {
+        padding: 60px 20px;
+        background-color: #f9f9f9;
+        text-align: center;
+    }
+
+    .reviews h2 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    #reviewsContainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 25px;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .review-card {
+        background: #ffffff;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .review-card:hover {
+        transform: translateY(-6px);
+    }
+
+    .review-card p {
+        font-style: italic;
+        margin-bottom: 15px;
+        color: #444;
+    }
+
+    .review-card h4 {
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+
+    .review-card span {
+        color: gold;
+        font-size: 18px;
+    }
+
+    @media (max-width: 600px) {
+        .reviews h2 {
+            font-size: 22px;
+        }
+
+        nav {
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="left">
+        <img src="./logo2.png" alt="">
+        <h2>ABOKICHI</h2>
+    </div>
+    <div class="center">
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./productpage.html">Shop</a></li>
+            <li><a href="./ourStory.html">Our Story</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+    <script src="./review.js"></script>
+</body>
+</html>
